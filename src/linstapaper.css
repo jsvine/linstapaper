@@ -1,0 +1,82 @@
+body {
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  color: #333;
+  font-size: 10px;
+  max-width: 600px;
+  margin: 1em auto;
+  padding: 0 1em;
+  background-color: #eee;
+}
+a {
+  text-decoration: none;
+  color: #2e66b2;
+}
+a:hover {
+  color: #ff5c2b;
+}
+h1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  margin: 10px;
+}
+.orange {
+  color: #ff5c2b;
+}
+.blue {
+  color: #2e66b2;
+}
+.article {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  -moz-box-shadow: 2px 2px 2px #eee;
+  -webkit-box-shadow: 2px 2px 2px #eee;
+  box-shadow: 2px 2px 2px #eee;
+}
+.hed {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin: 0.25em 0;
+}
+.dek {
+  font-size: 1.5em;
+  color: #666;
+}
+.info {
+  overflow: auto;
+  font-size: 1.25em;
+  margin: 0.5em 0;
+  color: #777;
+}
+.date,
+.auth,
+.pub {
+  float: left;
+}
+.date:before,
+.pub:before {
+  content: " :: ";
+  margin: 0 0.5em;
+}
+iframe.instapaper {
+  width: 78px;
+  height: 17px;
+  margin: 0.5em 0;
+}
+.about {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+  .date,
+  .pub {
+    clear: left;
+  }
+  .date:before,
+  .pub:before {
+    content: "";
+    margin: 0;
+  }
+}
