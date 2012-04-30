@@ -20,3 +20,5 @@ To generate the site, run:
 Open `src/index.html` in your favorite browser to see the generated homepage. If you're happy with it, run the following command to push the compiled files to the `dist/` directory:
 
 	make dist
+
+Now you can serve the `dist/` folder with your favorite static-file server.
