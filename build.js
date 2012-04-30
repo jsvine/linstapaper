@@ -1,16 +1,18 @@
 (function() {
-  var articles, fs, jade, template, tmpl;
+  var fs, jade, yaml, articles, index_template, tmpl;
 
   fs = require("fs");
 
   jade = require("jade");
 
-  articles = JSON.parse(fs.readFileSync("articles.json"));
+  yaml = require("js-yaml");
 
-  template = fs.readFileSync("src/index-template.jade");
+  articles = require("./articles.yml").shift();
 
-  tmpl = jade.compile(template);
+  index_template = fs.readFileSync("src/index-template.jade");
 
+  tmpl = jade.compile(index_template);
+  
   console.log(tmpl({
     articles: articles
   }));
