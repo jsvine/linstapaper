@@ -5,3 +5,18 @@ This repository contains the article-list and site files for [linstapaper.com](h
 ## Contributing
 
 Contributions, especially to the article list, are welcome and encouraged. Submit them by sending a pull request with your additions, or by filing an issue on this repository.
+
+## Generating the site
+
+To generate the Linstapaper homepage, you must have Node.js and the npm package manager installed. To install the site-generator's two package-dependencies, run:
+
+	npm install jade
+	npm install js-yaml
+
+To generate the site, run:
+
+	make compile
+
+Open `src/index.html` in your favorite browser to see the generated homepage. If you're happy with it, run the following command to push the compiled files to the `dist/` directory:
+
+	make dist
