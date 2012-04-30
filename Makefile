@@ -5,3 +5,7 @@ compile:
 .PHONY: out
 out:
 	rsync -avz --stats --exclude-from="rsync.excludes" ./src/ ./out
+
+dependencies:
+	npm install jade
+	npm install js-yaml
