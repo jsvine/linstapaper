@@ -7,7 +7,7 @@
 
   yaml = require("js-yaml");
 
-  articles = require("./articles.yml").shift();
+  articles = require("./articles.yml");
 
   index_template = fs.readFileSync("src/index-template.jade");
 
