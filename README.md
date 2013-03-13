@@ -1,6 +1,6 @@
 # Linstapaper
 
-This repository contains the article-list and site files for [linstapaper.com](http://www.linstapaper.com), your premier source for Jeremy Lin-reads.
+This repository contains the article list and site files for [linstapaper.com](http://www.linstapaper.com), your premier source for Jeremy Lin–reads.
 
 ## Contributing
 
