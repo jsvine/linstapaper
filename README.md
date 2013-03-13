@@ -10,7 +10,7 @@ Contributions, especially to the article list, are welcome and encouraged. Submi
 
 To generate the Linstapaper homepage, you must have Node.js and the npm package manager installed. To install the site-generator's three package-dependencies, run:
 
-	make install dependencies
+	make dependencies
 
 To generate the site, run:
 
