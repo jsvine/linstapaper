@@ -13,7 +13,7 @@ html(lang="en")
 			span.orange #lin
 			span.blue stapaper
 		- articles.sort(function(a,b) { return b.stamp - a.stamp })
-		- for (var i = 0; i < articles.length; i++)
+		- for (var i = 0, article; i < articles.length; i++)
 			- article = articles[i]
 			.article
 				.hed 
